@@ -1,0 +1,170 @@
+body{
+    background-color: black;
+   background-image: url(assets/fireworls.jpeg);
+   opacity: 1;
+    
+}
+
+
+.REGIS{
+    width: 80%;
+    margin: auto;
+  
+}
+.register-about h1 {
+    color: goldenrod;
+    margin-top: -100px;
+
+}
+.register-about p{
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+}
+.register-about{
+    justify-content: center;
+}
+.buttonnn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(255, 196, 0);
+    padding: 12px 34px;
+    font-size: 17px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-left: 28px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+
+.buttonnn:hover{
+    border: 1px solid rgb(1, 0, 2);
+    background: rgb(240, 240, 240);
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+    font-size: 20px;
+}
+@media(max-width: 767px){
+    .buttonnn{
+        font-size: 15px;
+    }
+    .register-about h1{
+        border: 0px;
+       text-align: left;
+        font-size: 35px;
+    }
+}
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: #ffb75e;
+}
+
+.container {
+  background-color: black;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 1400px;
+  height: 900px;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.header {
+  background-color: black;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.header h2 {
+  color: #ffb75e;
+  margin: 0;
+}
+
+.form {
+  padding: 30px 40px;
+}
+
+.form__control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form__control label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.form__control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-family: inherit;
+  font-size: 14px;
+  width: 160%;
+  padding: 15px;
+  outline-color: #f37335;
+}
+
+.form__control.success input {
+  border-color: #2ecc71;
+}
+
+.form__control.error input {
+  border-color: #e74c3c;
+}
+
+.form__control i {
+  visibility: hidden;
+  position: absolute;
+  top: 40px;
+  right: 10px;
+}
+
+.form__control.success i.fa-check-circle {
+  visibility: visible;
+  color: #2ecc71;
+}
+
+.form__control.error i.fa-exclamation-circle {
+  visibility: visible;
+  color: #e74c3c;
+}
+
+.form__control small {
+  visibility: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.form__control.error small {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.form button {
+  background-color: #f37335;
+  border: 2px solid #f37335;
+  border-radius: 4px;
+  color: #eee;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: bold;
+}
